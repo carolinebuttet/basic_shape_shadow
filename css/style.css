@@ -1,0 +1,36 @@
+body, html{
+  padding:0;
+  margin:0;
+}
+
+header{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: 2;
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+header img{
+  margin:16px;
+  margin-top:-16px;
+}
+
+.hint{
+  position:absolute;
+  bottom:6px;
+  font-family: sans-serif;
+  margin-left:18px;
+  opacity: 0.5;
+}
+
+canvas{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+}
