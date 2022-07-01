@@ -117,8 +117,7 @@ scene.add(backDrop)
 
 // GLTF Loader
 var loader = new THREE.GLTFLoader();
-loader.load( './../eikonlab/models/eikon.svg_5mm.gltf', function ( gltf ) {
-// loader.load( './../models/eikon.svg_5mm.gltf', function ( gltf ) {
+loader.load( './../models/eikon.svg_5mm.gltf', function ( gltf ) {
   gltf.scene.scale.x = 0.05;
   gltf.scene.scale.y = 0.05;
   gltf.scene.scale.z = 0;
